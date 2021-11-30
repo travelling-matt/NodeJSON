@@ -24,7 +24,19 @@ const listMovie =() => {
     } catch (error) {
         console.log(error);
     };
-}
+};
+
+//Neils help. on alex screen. push not working
+// const append = (movieObj) => {
+//     try {
+//         const jsonList = fs.readFileSync("./storage.json")
+//         const storage = JSON.parse(jsonList)
+//         storage.movies.push(movieObj)
+//         fs.writeFileSync("./storage.json", JSON.stringify(storage))
+//     } catch (error) {
+//         console.log(error);
+//     }
+// };
 
 //export modules
-module.exports = {addMovie, listMovie};
+module.exports = { addMovie, listMovie, append };
