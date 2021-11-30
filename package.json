@@ -1,0 +1,24 @@
+{
+  "name": "nodejson",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000N\u0000o\u0000d\u0000e\u0000J\u0000S\u0000O\u0000N\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/travelling-matt/NodeJSON.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/travelling-matt/NodeJSON/issues"
+  },
+  "homepage": "https://github.com/travelling-matt/NodeJSON#readme",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "yargs": "^17.2.1"
+  }
+}
